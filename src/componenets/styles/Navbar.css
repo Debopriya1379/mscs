@@ -1,0 +1,21 @@
+.Navbar_component {
+    /* background-color:aqua ; */
+    max-width: 100vw ;
+    /* height: 80px; */
+    display: flex;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.Navbar_component ul {
+    display: flex;
+    /* width: 70%; */
+    margin: auto;
+    /* background-color:aqua ; */
+    padding: 2px 20px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Navbar_component ul li {
+    padding: 10px 20px;
+}

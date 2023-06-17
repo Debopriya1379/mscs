@@ -1,0 +1,23 @@
+.NewsEvents-component {
+    /* margin: auto; */
+    /* background-color: aqua; */
+    margin-top: 50px;
+    width: 100%;
+}
+
+.News_head {
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 2px solid rgb(92, 167, 202);
+    border-radius: 3px;
+}
+
+.News_rows {
+    width: 70%;
+    margin:  0px auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
