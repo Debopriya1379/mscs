@@ -3,8 +3,8 @@ import './styles/Main.css'
 import { data } from './data'
 import { RegSociaties } from './RegSociaties'
 import { NewsEvents } from './NewsEvents'
-// import { RightUp } from './RightUp'
-// import { RightDown } from './RightDown'
+import { RightUp } from './RightUp'
+import { RightDown } from './RightDown'
 
 export const Main = () => {
 
@@ -21,7 +21,7 @@ export const Main = () => {
 
   useEffect(()=>{
     createGraph();
-  })
+  },[data])
 
 
   return (
@@ -31,8 +31,8 @@ export const Main = () => {
             <NewsEvents/>
         </div>
         <div className="main_right">
-            {/* <RightUp entryCountPerYear={entryCountPerYear}/> */}
-            {/* <RightDown/> */}
+            {entryCountPerYear && <RightUp entryCountPerYear={entryCountPerYear}/>}
+            <RightDown/>
         </div>
     </div>
   )
